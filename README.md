@@ -1,42 +1,29 @@
-Hotel Reservation System 🏨
-Welcome to the Hotel Reservation System, a Java-based application for managing hotel reservations efficiently. Whether you're running a small inn or a boutique hotel, this system simplifies the reservation process, enhances guest management, and keeps your business organized.
+Hotel Reservation System
 
-Features 🌟
+ Project Overview
+   
+   The Hotel Reservation System is a desktop application developed in Java using JDBC for database connectivity. The system provides an efficient way to manage hotel reservations, allowing customers to book rooms and administrators to manage bookings and room inventory.
 
-     
-Reserve a Room: Easily make new reservations by providing guest details, room numbers, and contact information.
-
-View Reservations: Get an overview of all current reservations, including guest names, room numbers, contact details, and reservation dates.
-
-Edit Reservation Details: Update guest names, room numbers, and contact information for existing reservations.
-
-Delete Reservations: Remove reservations that are no longer needed.
-
-Getting Started 🚀
-Prerequisites
-Java Development Kit (JDK)
-MySQL Database
-MySQL Connector/J (Java)
-Setup
-Clone this repository to your local machine:
+Features
+  Customer Features:
+  Search for available rooms by date, type.
+  Make and manage reservations (view, update, or cancel bookings).
+  User registration and login.
 
 
+Admin Features:
+Manage room details (add, update, or delete rooms).
+View and manage customer bookings.
 
-private static final String DB_URL = "jdbc:mysql://localhost:3306/hotel_db";
-private static final String DB_USER = "your_username";
-private static final String DB_PASSWORD = "your_password";
+Technologies Used:
+   Programming Language: Java
+   Database: MySQL
+   Database Connectivity: JDBC (Java Database Connectivity)
 
-Compile and run the application
+Prerequisites:
+Java Development Kit (JDK) installed
+MySQL server running
+IDE (e.g., IntelliJ IDEA, Eclipse)
 
-Follow the on-screen menu options to use the system.
 
-Usage 📋
-Upon running the application, you'll be presented with a menu to choose your desired operation (reservation, viewing, editing, or exiting).
 
-Follow the prompts to input reservation details, view current reservations, edit existing bookings, and more.
-
-Contributing 🤝
-Contributions are welcome! Feel free to open issues and pull requests for bug fixes, enhancements, or new features.
-Acknowledgments 🙏
-Special thanks to all contributors and supporters of the Hotel Reservation System project.
-Happy booking! 🌆
